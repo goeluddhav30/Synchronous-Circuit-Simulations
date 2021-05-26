@@ -1,0 +1,307 @@
+$date
+	Wed May 19 14:12:52 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_fsm $end
+$var wire 1 ! y_out $end
+$var wire 3 " qn [2:0] $end
+$var reg 1 # clk $end
+$var reg 3 $ q [2:0] $end
+$var reg 1 % reset $end
+$var reg 1 & x_in $end
+$scope module DUT $end
+$var wire 1 # clk $end
+$var wire 3 ' q [2:0] $end
+$var wire 1 % reset $end
+$var wire 1 & x_in $end
+$var wire 1 ! y_out $end
+$var wire 3 ( qn [2:0] $end
+$scope module D1 $end
+$var wire 1 # clk $end
+$var wire 1 ) d $end
+$var wire 1 % reset $end
+$var reg 1 * qn $end
+$var reg 1 + qnbar $end
+$upscope $end
+$scope module D2 $end
+$var wire 1 # clk $end
+$var wire 1 , d $end
+$var wire 1 % reset $end
+$var reg 1 - qn $end
+$var reg 1 . qnbar $end
+$upscope $end
+$scope module D3 $end
+$var wire 1 # clk $end
+$var wire 1 / d $end
+$var wire 1 % reset $end
+$var reg 1 0 qn $end
+$var reg 1 1 qnbar $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+11
+00
+1/
+1.
+0-
+0,
+1+
+0*
+0)
+b0 (
+b0 '
+1&
+0%
+b0 $
+0#
+b0 "
+0!
+$end
+#5
+01
+b1 "
+b1 (
+10
+1#
+#10
+0#
+#15
+1,
+0/
+1!
+b1 $
+b1 '
+1#
+#20
+0#
+#25
+0.
+1-
+11
+b10 "
+b10 (
+00
+1#
+#30
+0#
+#35
+1/
+0!
+b10 $
+b10 '
+1#
+#40
+0#
+0&
+#45
+01
+b11 "
+b11 (
+10
+1#
+#50
+0#
+#55
+0,
+1)
+0/
+b11 $
+b11 '
+1#
+#60
+0#
+#65
+0+
+1*
+1.
+0-
+11
+b100 "
+b100 (
+00
+1#
+#70
+0#
+#75
+1/
+b100 $
+b100 '
+1#
+#80
+0#
+1&
+#85
+01
+b101 "
+b101 (
+10
+1#
+#90
+0#
+#95
+0)
+0/
+b101 $
+b101 '
+1#
+#100
+0#
+#105
+1+
+0*
+11
+b0 "
+b0 (
+00
+1#
+#110
+0#
+#115
+1/
+b0 $
+b0 '
+1#
+#120
+0/
+0#
+0&
+#125
+1#
+#130
+0#
+#135
+1#
+#140
+0#
+#145
+1#
+#150
+0#
+#155
+1#
+#160
+1/
+0#
+1&
+#165
+01
+b1 "
+b1 (
+10
+1#
+#170
+0#
+#175
+1,
+0/
+1!
+b1 $
+b1 '
+1#
+#180
+0#
+#185
+0.
+1-
+11
+b10 "
+b10 (
+00
+1#
+#190
+0#
+#195
+1/
+0!
+b10 $
+b10 '
+1#
+#200
+0#
+0&
+#205
+01
+b11 "
+b11 (
+10
+1#
+#210
+0#
+#215
+0,
+1)
+0/
+b11 $
+b11 '
+1#
+#220
+0#
+#225
+0+
+1*
+1.
+0-
+11
+b100 "
+b100 (
+00
+1#
+#230
+0#
+#235
+1/
+b100 $
+b100 '
+1#
+#240
+0#
+1&
+#245
+01
+b101 "
+b101 (
+10
+1#
+#250
+0#
+#255
+0)
+0/
+b101 $
+b101 '
+1#
+#260
+0#
+#265
+1+
+0*
+11
+b0 "
+b0 (
+00
+1#
+#270
+0#
+#275
+1/
+b0 $
+b0 '
+1#
+#280
+0/
+0#
+0&
+#285
+1#
+#290
+0#
+#295
+1#
