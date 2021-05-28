@@ -3,14 +3,25 @@ This repository consists of my submission for ELP201 Verilog assignments.
 
 ## Compiling Verilog code
 
-Use the following commands to compile the given code in verilog:
 ```
-iverilog -o graycodesim graycode.v tb_graycode.v
-```
-```
-iverilog -o ringcountersim ringcounter.v tb_ringcounter.v
+iverilog -o grayctrsim grayctr.v tb_grayctr.v
 ```
 ```
-iverilog -o sequencesim sequence.v tb_sequence.v
+iverilog -o ringctrsim ringctr.v tb_ringctr.v
+```
+```
+iverilog -o fsmsim fsm.v tb_fsm.v
+```
+
+## Test-Bench Results
+
+```
+vvp grayctrsim
+```
+```
+vvp ringctrsim
+```
+```
+vvp fsmsim
 ```
 
